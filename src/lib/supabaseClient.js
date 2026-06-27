@@ -1,11 +1,4 @@
 import { createClient } from '@supabase/supabase-js'
 
-// 👉 PASO IMPORTANTE: reemplaza estos dos valores con los tuyos.
-// Los obtienes en supabase.com → tu proyecto → Settings → API
-// supabaseUrl: "Project URL"
-// supabaseKey: "anon public" key (NUNCA uses la "service_role" key aquí)
-
-const supabaseUrl = 'TU_SUPABASE_URL_AQUI'
-const supabaseKey = 'TU_SUPABASE_ANON_KEY_AQUI'
-
-export const supabase = createClient(supabaseUrl, supabaseKey)
+const supabaseUrl = 'https://pqrhhxxwthjfdmeguprg.supabase.co'
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBxcmhoeHh3dGhqZmRtZWd1cHJnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI1NzQwOTYsImV4cCI6MjA5ODE1MDA5Nn0.LSuFzpMyMtYbuAc9VeePtf
